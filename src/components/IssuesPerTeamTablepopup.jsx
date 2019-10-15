@@ -26,8 +26,8 @@ const DivBoarder = {
   border: "2px solid #aaa",
   overflowX: "auto",
   borderColor: "#3f51b5",
-  width:"750px",
-  height:'400px'
+  width:"100%",
+  height:'100%'
 };
 
 class IssuesForlabelsChart extends Component {

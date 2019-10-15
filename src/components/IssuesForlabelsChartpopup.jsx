@@ -40,8 +40,8 @@ const DivBoarder = {
   border: "2px solid #aaa",
   overflowX: "auto",
   borderColor: "#3f51b5",
-  width:"750px",
-  height:"400px"
+  width:"100%",
+  height:"100%"
 };
 
 //var randomColor = require('randomcolor'); // import the script
@@ -131,7 +131,7 @@ class Chart extends Component {
       <div className="App">
 
           <div>
-            <h1>Created VS Closed Issue Chart</h1>
+            <h1 backgroundColor='white'>Created VS Closed Issue Chart</h1>
           </div>
           <PageWrapper>
           <div style={DivBoarder}>
