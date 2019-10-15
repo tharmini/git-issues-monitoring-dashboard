@@ -16,3 +16,7 @@ h1 {
   font-size: 27px !important;
   background: white;
 }
+.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded {
+  box-shadow: 0px;
+  box-shadow: none;
+}
